@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_sunflower/d/provider.dart';
 import 'package:flutter_sunflower/ui/Home.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,12 +11,17 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MultiProvider(
+        providers: [
+        ChangeNotifierProvider<SunFlowerProvider>(
+        create: (_) => SunFlowerProvider()),
+    ],child: MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: Home(),
+    ),
     );
   }
 }
