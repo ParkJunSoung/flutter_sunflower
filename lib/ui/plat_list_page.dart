@@ -20,7 +20,7 @@ class PlatListPage extends StatelessWidget {
         child: Column(
           children: [
             GridTile(
-            child: Container(height:70,child: Image.network('${list.plants[index]}',fit: BoxFit.fill,)),
+            child: Image.network('${list.plants[index]}',fit: BoxFit.fill,),
             ),
             Text('${list.plant[index]}')
           ],
@@ -28,6 +28,7 @@ class PlatListPage extends StatelessWidget {
       ),
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
+        childAspectRatio: 2 / 2,
       ),
     );
   }
