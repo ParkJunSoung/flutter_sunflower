@@ -11,7 +11,7 @@ class PlatListPage extends StatelessWidget {
       itemCount: list.plant.length,
       itemBuilder: (context, index) => Container(
       decoration: BoxDecoration(
-        color: Colors.green,
+        color: Colors.red,
         borderRadius: BorderRadius.only(
           topRight: Radius.circular(90.0),
           bottomLeft: Radius.circular(90.0),
