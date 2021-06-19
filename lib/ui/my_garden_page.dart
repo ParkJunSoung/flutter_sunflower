@@ -23,7 +23,7 @@ class MyGardenPage extends StatelessWidget {
               //   MaterialPageRoute(builder: (context) => PlatListPage()),
               // );
             },
-            child: Text('ADD PLANT',style: TextStyle(color: Colors.black),),
+            // child: Text('ADD PLANT',style: TextStyle(color: Colors.black),),
             style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all(Color(0xffc8c84e)),
                 shape: MaterialStateProperty.all<RoundedRectangleBorder>(
