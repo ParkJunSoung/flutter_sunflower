@@ -14,7 +14,7 @@ class MyGardenPage extends StatelessWidget {
         children: [
           Text(
             'Your garden is empty',
-            style: TextStyle(fontSize: 22),
+            style: TextStyle(fontSize: 25),
           ),
           ElevatedButton(
             onPressed: () {
@@ -29,8 +29,8 @@ class MyGardenPage extends StatelessWidget {
                 shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                     RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
-                bottomLeft: Radius.circular(15.0),
-                topRight: Radius.circular(15.0),
+                bottomLeft: Radius.circular(25.0),
+                topRight: Radius.circular(25.0),
               ),
             ))),
           )

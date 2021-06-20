@@ -12,7 +12,6 @@ class PlatListPage extends StatelessWidget {
       shrinkWrap: true,
       itemCount: list.plant.length,
       itemBuilder: (context, index) => Card(
-        elevation: 5,
         child: Container(
           decoration: BoxDecoration(
               image: DecorationImage(
