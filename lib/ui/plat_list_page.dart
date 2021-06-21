@@ -3,7 +3,7 @@ import 'package:flutter_sunflower/d/provider.dart';
 import 'package:provider/provider.dart';
 
 class PlatListPage extends StatelessWidget {
-  const PlatListPage({Key key}) : super(key: key);
+  const PlatListPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

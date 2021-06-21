@@ -3,7 +3,7 @@ import 'package:flutter_sunflower/ui/my_garden_page.dart';
 import 'package:flutter_sunflower/ui/plat_list_page.dart';
 
 class Home extends StatelessWidget {
-  const Home({Key key}) : super(key: key);
+  const Home({Key? key}) : super(key: key);
 
   @override
 

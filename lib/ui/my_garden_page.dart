@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_sunflower/ui/plat_list_page.dart';
 
 class MyGardenPage extends StatelessWidget {
-  const MyGardenPage({Key key}) : super(key: key);
+  const MyGardenPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -17,6 +17,7 @@ class MyGardenPage extends StatelessWidget {
             style: TextStyle(fontSize: 25),
           ),
           ElevatedButton(
+            child: Text('d'),
             onPressed: () {
               // Navigator.push(
               //   context,
