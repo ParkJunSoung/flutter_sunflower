@@ -6,7 +6,6 @@ class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
 
   @override
-
   Widget build(BuildContext context) {
     return MaterialApp(
       home: DefaultTabController(
@@ -14,7 +13,10 @@ class Home extends StatelessWidget {
         child: Scaffold(
           appBar: AppBar(
             actions: [
-              Icon(Icons.menu,color: Colors.black,),
+              Icon(
+                Icons.menu,
+                color: Colors.black,
+              ),
             ],
             centerTitle: true,
             backgroundColor: Color(0xff48b978),
@@ -22,11 +24,15 @@ class Home extends StatelessWidget {
               indicatorColor: Colors.black,
               labelColor: Colors.black,
               tabs: [
-                Tab(icon: Icon(Icons.directions_car),text: "MY GARDEN"),
-                Tab(icon: Icon(Icons.directions_transit),text: "PLANT LIST"),
+                Tab(icon: Icon(Icons.directions_car), text: "MY GARDEN"),
+                Tab(icon: Icon(Icons.directions_transit), text: "PLANT LIST"),
               ],
             ),
-            title: Text('Sunflower',style: TextStyle(color: Colors.black,fontSize: 25,fontWeight: FontWeight.normal)),
+            title: Text('Sunflower',
+                style: TextStyle(
+                    color: Colors.black,
+                    fontSize: 25,
+                    fontWeight: FontWeight.normal)),
           ),
           body: TabBarView(
             children: [

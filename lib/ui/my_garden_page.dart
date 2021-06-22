@@ -29,11 +29,11 @@ class MyGardenPage extends StatelessWidget {
                 backgroundColor: MaterialStateProperty.all(Color(0xffc8c84e)),
                 shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                     RoundedRectangleBorder(
-              borderRadius: BorderRadius.only(
-                bottomLeft: Radius.circular(25.0),
-                topRight: Radius.circular(25.0),
-              ),
-            ))),
+                  borderRadius: BorderRadius.only(
+                    bottomLeft: Radius.circular(25.0),
+                    topRight: Radius.circular(25.0),
+                  ),
+                ))),
           )
         ],
       ),

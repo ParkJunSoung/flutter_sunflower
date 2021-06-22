@@ -15,7 +15,9 @@ class PlatListPage extends StatelessWidget {
         child: Container(
           decoration: BoxDecoration(
               image: DecorationImage(
-                  image: NetworkImage("${list.plants[index]}",),
+                  image: NetworkImage(
+                    "${list.plants[index]}",
+                  ),
                   fit: BoxFit.fill,
                   alignment: Alignment.topCenter)),
           child: Text('${list.plant[index]}'),
