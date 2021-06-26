@@ -5,7 +5,7 @@ class SunFlowerProvider extends ChangeNotifier {
     "Apple",
     "Avocado",
     "Beet",
-    "Bougainvillea",
+    "Bouginvillea",
     "Cilantro",
     "Eggplant",
     "Grape",
