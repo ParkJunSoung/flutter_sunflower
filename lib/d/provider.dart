@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 class SunFlowerProvider extends ChangeNotifier {
   List<String> plant = [
-    "Apple",
-    "Avocado",
-    "Beet",
+    "Aple",
+    "Avcado",
+    "Bee",
     "Bouginvillea",
     "Cilantro",
     "Eggplant",
